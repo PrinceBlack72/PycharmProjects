@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第四个案例</title>
+</head>
+<body>
+
+    {% if name == "王晓静" %}
+        <h1>
+        {{ name }}, 你好
+        </h1>
+    {% elif name == "张晓静" %}
+        <h1>
+        {{ name }}, 还记得大明湖吗
+        </h1>
+    {% else %}
+        <h1>
+        {{ name }}, 你走开
+        </h1>
+    {% endif %}
+
+</body>
+</html>
